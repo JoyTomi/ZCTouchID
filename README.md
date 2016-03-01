@@ -1,7 +1,9 @@
 # ZCTouchID
 ####一行代码在你的App中加入TouchID指纹验证
 
-具体定制的接口还没有去丰富，现在也是仅仅在自己的项目中拿来用
+> 如果有想要深入了解TouchID方面的内容，可以去看我的一篇博客
+> 
+> [LocalAuthentication源码学习](http://zcill.com/2016/02/29/LocalAuthentication源码学习/)
 
 ## - Usage
 #### 导入`ZCTouchID.h`
