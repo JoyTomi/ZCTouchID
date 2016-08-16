@@ -17,7 +17,9 @@
 #### 导入`ZCTouchID.h`
 
 ```objective-c
-	#import "ZCTouchID.h"
+
+	#import <ZCTouchID/ZCTouchID.h>
+
 ```
 #### 先判断设备是否支持TouchID指纹识别
 
@@ -41,9 +43,6 @@
 
 ![效果图](http://7xr0k3.com1.z0.glb.clouddn.com/ZCTouchID/screenshot.gif)
 
-导入
-
-![import](http://7xr0k3.com1.z0.glb.clouddn.com/ZCTouchID/import.png)
 
 使用
 
