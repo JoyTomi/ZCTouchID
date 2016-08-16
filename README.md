@@ -5,6 +5,14 @@
 > 
 > [LocalAuthentication源码学习](http://zcill.com/2016/02/29/LocalAuthentication源码学习/)
 
+## - Installation
+
+使用CocoaPods的话
+
+```ruby
+ pod 'ZCTouchID'
+```
+
 ## - Usage
 #### 导入`ZCTouchID.h`
 
