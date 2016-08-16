@@ -22,8 +22,20 @@ typedef void(^ZCTouchIDEvaluateCompletion)(ZCTouchIDEvaluateResult result);
 
 + (instancetype)sharedInstance;
 
+/**
+ *  硬件是否支持指纹识别
+ *
+ *  @return 是否支持
+ */
 - (BOOL)canEvaluatePolicy;
 
+/**
+ *  验证指纹
+ *
+ *  @param reason     指纹验证框的描述
+ *  @param title      指纹验证失败后，输入密码按钮的标题
+ *  @param completion 完成回调
+ */
 - (void)evaluatePolicyWithLocalizedReason:(NSString *)reason
                       fallbackButtonTitle:(NSString *)title
                                completion:(ZCTouchIDEvaluateCompletion)completion;
